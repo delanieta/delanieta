@@ -10,56 +10,27 @@
 
 ---
 
-### `01. Sobre mí`
-
-```text
-¡Hola! Soy estudiante de Administración de Sistemas
-Informáticos en Red (ASIR).
-
-Me gusta la informática, las nuevas tecnologías,
-los sistemas, las redes y la ciberseguridad.
-
-En este perfil compartiré mis proyectos, prácticas
-y todo lo que vaya aprendiendo durante el curso.
-```
-
----
-
-### `02. Tecnologías y herramientas`
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=linux,windows,ubuntu,debian,bash,powershell,git,github,vscode,mysql,docker,python&theme=dark&perline=6" width="370" alt="Tecnologías y herramientas" />
-</p>
-
----
-
-### `03. Actualmente aprendiendo`
-
-- `Administración de sistemas`
-- `Redes informáticas`
-- `Ciberseguridad`
-- `Virtualización`
-- `Bases de datos`
-- `Programación y automatización`
-
----
-
-### `04. Mis proyectos`
-
-```text
-Próximamente...
-
-Prácticas, proyectos y trabajos realizados
-durante mi formación en ASIR.
-```
-
----
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=2500&color=FF334F&center=true&vCenter=true&width=500&height=45&lines=Never+stop+learning." />
+<img src="./about.svg" alt="Sobre mí — Estudiante de ASIR" width="100%" />
 
-<code>— 23 —</code>
+<br>
+
+<img src="./tools.svg" alt="Linux, Windows, Ubuntu, Debian, Bash, PowerShell, Git, GitHub, VS Code, MySQL, Docker y Python" width="100%" />
+
+<br>
+
+<img src="./learning.svg" alt="Actualmente aprendiendo sistemas, redes, ciberseguridad, virtualización, bases de datos y programación" width="100%" />
+
+<br>
+
+<a href="https://delanieta.github.io/Fundamentos-de-Hardware/">
+  <img src="./projects.svg" alt="Acceder a Hardware Lab" width="100%" />
+</a>
+
+<a href="https://github.com/delanieta/Fundamentos-de-Hardware">
+  <img src="https://img.shields.io/badge/VER-REPOSITORIO-7A1224?style=for-the-badge&logo=github&logoColor=white&labelColor=202020" />
+</a>
 
 </div>
 
