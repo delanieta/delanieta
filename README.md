@@ -1,6 +1,10 @@
 
 <div align="center">
 
+<img src="./banner.svg" alt="SYSTEM 23 — BUILD. BREAK. FIX." width="100%" />
+
+<br><br>
+
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=35&duration=2500&pause=1500&color=FF334F&center=true&vCenter=true&repeat=false&width=700&height=65&lines=Adri%C3%A1n+Buenadicha" alt="Adrián Buenadicha" />
 
 <br>
