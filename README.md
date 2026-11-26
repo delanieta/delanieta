@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="./banner.svg" alt="SYSTEM_23" width="100%" />
+
+<img src="./banner-code.svg" alt="Personal Lab" width="100%" />
 
 <br>
 
