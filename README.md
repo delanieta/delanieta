@@ -17,7 +17,7 @@
 
 <br>
 
-<img src="./tools.svg" alt="Linux, Windows, Ubuntu, Debian, Bash, PowerShell, Git, GitHub, VS Code, MySQL, Docker y Python" width="100%" />
+<img src="./tools-v2.svg" alt="Tecnologías y herramientas" width="100%" />
 
 <br>
 
