@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title desc">
+  <title id="title">SYSTEM_23 — Personal terminal</title>
+  <desc id="desc">Adrián Buenadicha, ASIR student in Madrid, Spain. Systems, networks and security. Learning from scratch. Never stop learning. Discipline, consistency, progress.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#101013"/><stop offset="1" stop-color="#151116"/></linearGradient>
+    <clipPath id="window"><rect x="10" y="5" width="1180" height="310" rx="13"/></clipPath>
+    <clipPath id="typing"><rect x="54" y="263" width="270" height="31"><animate attributeName="width" values="270;270;0;270;270" keyTimes="0;0.42;0.43;0.78;1" dur="7s" repeatCount="indefinite"/></rect></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace;}
+      .cmd{fill:#d1cdd1;font-size:19px;}
+      .prompt{fill:#bd7182;font-weight:700;}
+      .label{fill:#bd7182;font-size:18px;letter-spacing:1.5px;}
+      .val{fill:#e6e6e8;font-size:19px;}
+      .cursor{animation:blink 1.4s ease-in-out infinite;}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0.12}}
+      @media (prefers-reduced-motion:reduce){.cursor{animation:none;}}
+    </style>
+  </defs>
+  <rect x="10" y="5" width="1180" height="310" rx="13" fill="url(#panel)" stroke="#383039" stroke-width="1.5"/>
+  <g clip-path="url(#window)">
+    <rect x="10" y="5" width="1180" height="40" fill="#1b1b20"/>
+    <line x1="10" y1="45" x2="1190" y2="45" stroke="#393039"/>
+    <circle cx="32" cy="25" r="6" fill="#7a1224" stroke="#a64b60"/>
+    <circle cx="51" cy="25" r="6" fill="#44444c"/>
+    <circle cx="70" cy="25" r="6" fill="#44444c"/>
+    <text x="600" y="30" text-anchor="middle" class="mono" font-size="15" fill="#aaa4aa">delanieta@system23: ~</text>
+    <text x="1164" y="30" text-anchor="end" class="mono" font-size="12" fill="#b66e80">PROFILE / 23</text>
+    <g class="mono">
+      <text x="33" y="76" class="cmd"><tspan class="prompt">❯</tspan><tspan dx="10">whoami</tspan></text>
+      <text x="54" y="111" font-size="32" font-weight="700" fill="#f1f1f3">Adrián Buenadicha<tspan class="cursor" fill="#a61b34">_</tspan></text>
+      <text x="33" y="147" class="cmd"><tspan class="prompt">❯</tspan><tspan dx="10">cat profile.txt</tspan></text>
+      <text x="54" y="178" class="label">ROLE</text><text x="205" y="178" class="val">ASIR Student</text>
+      <text x="54" y="207" class="label">LOCATION</text><text x="205" y="207" class="val">Madrid, Spain</text>
+      <text x="622" y="178" class="label">FOCUS</text><text x="750" y="178" class="val">Systems, Networks &amp; Security</text>
+      <text x="622" y="207" class="label">STATUS</text><text x="750" y="207" class="val">Learning from scratch</text>
+      <path d="M54 225 H1146" stroke="#2e242b"/>
+      <text x="33" y="252" class="cmd"><tspan class="prompt">❯</tspan><tspan dx="10">echo $MINDSET</tspan></text>
+      <text x="54" y="285" font-size="22" fill="#d2a0ab" clip-path="url(#typing)">Never stop learning.</text>
+    </g>
+  </g>
+  <g class="mono" font-size="16" letter-spacing="3" text-anchor="middle">
+    <text x="600" y="348" fill="#bd7182">DISCIPLINE <tspan fill="#67616a">/</tspan> CONSISTENCY <tspan fill="#67616a">/</tspan> PROGRESS</text>
+  </g>
+</svg>
