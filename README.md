@@ -72,3 +72,11 @@ durante mi formación en ASIR.
 <code>— 23 —</code>
 
 </div>
+
+---
+
+### `05. Mi actividad en GitHub`
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/delanieta/delanieta/output/snake.svg" alt="Snake animation" />
+</p>
