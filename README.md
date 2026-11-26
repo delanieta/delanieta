@@ -1,24 +1,10 @@
-
 <div align="center">
 
-<img src="./banner.svg" alt="SYSTEM 23 — BUILD. BREAK. FIX." width="100%" />
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=35&duration=2500&pause=1500&color=FF334F&center=true&vCenter=true&repeat=false&width=700&height=65&lines=Adri%C3%A1n+Buenadicha" alt="Adrián Buenadicha" />
+<img src="./banner.svg" alt="SYSTEM_23" width="100%" />
 
 <br>
 
-<code>ASIR STUDENT | MADRID, SPAIN</code>
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1500&color=FF334F&center=true&vCenter=true&width=650&height=50&lines=Always+learning+new+things...;Systems+and+Networking;Cybersecurity+and+Technology;Never+stop+learning." />
-
-<br>
-
-<img src="https://img.shields.io/badge/ASIR-STUDENT-CE1141?style=for-the-badge&labelColor=202020" />
-<img src="https://img.shields.io/badge/LOCATION-MADRID-CE1141?style=for-the-badge&labelColor=202020" />
+<img src="./terminal.svg" alt="Personal Terminal" width="100%" />
 
 </div>
 
