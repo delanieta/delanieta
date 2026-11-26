@@ -1,0 +1,183 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070708"/>
+      <stop offset="100%" stop-color="#111114"/>
+    </linearGradient>
+
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5A0E1A"/>
+      <stop offset="50%" stop-color="#7A1224"/>
+      <stop offset="100%" stop-color="#A61B34"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="scanlines" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="transparent"/>
+      <rect y="0" width="8" height="1" fill="rgba(255,255,255,0.04)"/>
+    </pattern>
+
+    <style>
+      .mono {
+        font-family: 'JetBrains Mono', 'Courier New', monospace;
+      }
+
+      .bold {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+      }
+
+      .small-fade {
+        animation: flicker 4s infinite ease-in-out;
+      }
+
+      .pulse23 {
+        animation: pulse23 3.2s infinite ease-in-out;
+        transform-origin: 930px 150px;
+      }
+
+      .lineMove {
+        animation: lineMove 6s linear infinite;
+      }
+
+      .word1 {
+        animation: glowWord 4.5s infinite;
+      }
+
+      .word2 {
+        animation: glowWord 4.5s infinite 1.2s;
+      }
+
+      .word3 {
+        animation: glowWord 4.5s infinite 2.4s;
+      }
+
+      .progress {
+        animation: progressBar 5s infinite ease-in-out;
+      }
+
+      .dotBlink {
+        animation: dotBlink 1.4s infinite;
+      }
+
+      @keyframes pulse23 {
+        0%, 100% {
+          transform: scale(1);
+          opacity: 0.95;
+        }
+        50% {
+          transform: scale(1.04);
+          opacity: 1;
+        }
+      }
+
+      @keyframes glowWord {
+        0%, 100% {
+          fill: #F2F2F2;
+          opacity: 0.72;
+        }
+        50% {
+          fill: #C21E3A;
+          opacity: 1;
+        }
+      }
+
+      @keyframes lineMove {
+        0% {
+          transform: translateY(-20px);
+          opacity: 0;
+        }
+        10% {
+          opacity: 0.7;
+        }
+        50% {
+          opacity: 0.45;
+        }
+        100% {
+          transform: translateY(320px);
+          opacity: 0;
+        }
+      }
+
+      @keyframes progressBar {
+        0% {
+          width: 0;
+        }
+        70% {
+          width: 460px;
+        }
+        100% {
+          width: 460px;
+        }
+      }
+
+      @keyframes dotBlink {
+        0%, 100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.25;
+        }
+      }
+
+      @keyframes flicker {
+        0%, 100% {
+          opacity: 0.95;
+        }
+        50% {
+          opacity: 0.75;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1200" height="320" rx="18" fill="url(#bgGrad)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#scanlines)" opacity="0.45"/>
+
+  <!-- Marco -->
+  <rect x="10" y="10" width="1180" height="300" rx="14" stroke="#2E2E34" stroke-width="1.5"/>
+
+  <!-- Cabecera -->
+  <text x="45" y="48" class="mono small-fade" font-size="18" fill="#C21E3A" letter-spacing="2">SYSTEM_23 / PERSONAL LAB</text>
+  <line x1="45" y1="64" x2="1155" y2="64" stroke="#2D1A1F" stroke-width="1"/>
+
+  <!-- Palabras -->
+  <text x="60" y="125" class="bold word1" font-size="54">BUILD.</text>
+  <text x="60" y="180" class="bold word2" font-size="54">BREAK.</text>
+  <text x="60" y="235" class="bold word3" font-size="54">FIX.</text>
+
+  <!-- Subtexto -->
+  <text x="62" y="270" class="mono" font-size="17" fill="#9A9AA2" letter-spacing="1.5">
+    SYSTEMS / NETWORKS / CYBERSECURITY
+  </text>
+
+  <!-- Número 23 -->
+  <g class="pulse23" filter="url(#softGlow)">
+    <text x="785" y="210" font-size="165" font-style="italic" font-weight="900" font-family="Impact, Arial Black, sans-serif" fill="url(#redGrad)" stroke="#D95A6E" stroke-width="1.6" letter-spacing="-8">
+      23
+    </text>
+  </g>
+
+  <!-- Barra -->
+  <rect x="60" y="288" width="460" height="4" rx="2" fill="#2A2A31"/>
+  <rect x="60" y="288" height="4" rx="2" fill="#7A1224" class="progress"/>
+
+  <!-- Footer -->
+  <text x="60" y="306" class="mono" font-size="15" fill="#E6E6E8">ASIR STUDENT</text>
+
+  <circle cx="510" cy="301" r="5" fill="#A61B34" class="dotBlink"/>
+  <text x="525" y="306" class="mono" font-size="15" fill="#C9C9CF">LEARNING IN PROGRESS</text>
+
+  <text x="955" y="306" class="mono" font-size="15" fill="#E6E6E8">NO SHORTCUTS</text>
+
+  <!-- Línea de escaneo -->
+  <rect x="18" y="0" width="1164" height="2" fill="#A61B34" opacity="0.55" class="lineMove"/>
+</svg>
